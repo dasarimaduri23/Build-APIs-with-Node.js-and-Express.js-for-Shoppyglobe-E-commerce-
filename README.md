@@ -24,7 +24,7 @@ MongoDB (local or hosted instance)
 Installation
 Clone the repository:
 
-git clone 
+git clone https://github.com/dasarimaduri23/Build-APIs-with-Node.js-and-Express.js-for-Shoppyglobe-E-commerce-.git
 cd NODEJS PROJECT
 Install dependencies:
 
@@ -90,3 +90,6 @@ Bcrypt: Password hashing
 jsonwebtoken: Token-based authentication
 
 Dotenv: Environment variable management
+
+Git HUb Link:
+https://github.com/dasarimaduri23/Build-APIs-with-Node.js-and-Express.js-for-Shoppyglobe-E-commerce-/tree/main
