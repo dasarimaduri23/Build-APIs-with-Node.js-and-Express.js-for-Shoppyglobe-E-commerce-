@@ -46,30 +46,47 @@ Users
 
 Method	Endpoint	    Description
 POST	/users/register	Register a new user
+
 POST	/users/login	Login a user
 
 Products
 Method	Endpoint	        Description
+
 GET	    /products	        Get all products
+
 GET	    /products/:id	    Get a product by ID
+
 POST	/products	        Add a new product
+
 PUT	    /products/:id	    Update a product by ID
+
 DELETE	/products/:id	    Delete a product by ID
 
 Cart
 
 Method	Endpoint	        Description
+
 GET	       /cart/:id	    Get all cart items for a user
+
 GET	       /cart/items/:id	Get a cart items for a user
+
 POST	   /cart	        Add an item to the cart
+
 PUT	       /cart/items/:id	Update an item in the cart
+
 DELETE	   /cart/:id	    Remove an item from the cart
+
 DELETE ALL /cart/all/:id	Remove all items from the cart for a user
 
 
 Dependencies
+
 Express: Web framework
+
 Mongoose: MongoDB ODM
+
 Bcrypt: Password hashing
+
 jsonwebtoken: Token-based authentication
+
 Dotenv: Environment variable management
